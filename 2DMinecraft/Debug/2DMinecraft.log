@@ -1,0 +1,129 @@
+﻿Build started 11/3/2014 9:35:04 AM.
+     1>Project "C:\Users\Sam\Documents\Visual Studio 2010\Projects\2DMinecraft\2D_Minecraft_Clone\2DMinecraft\2DMinecraft.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\2DMinecraft.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Animation.cpp Block.cpp BlockAir.cpp BlockGlowStone.cpp BlockHelper.cpp BlockStone.cpp Entity.cpp EntityPlayer.cpp Game.cpp InputHandler.cpp Inventory.cpp Level.cpp main.cpp ModelBiped.cpp MyDirectX.cpp MyMouseCursor.cpp
+         MyMouseCursor.cpp
+         MyDirectX.cpp
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\mydirectx.cpp(199): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\mydirectx.cpp(199): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\mydirectx.cpp(227): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\mydirectx.cpp(227): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\mydirectx.cpp(265): warning C4244: 'argument' : conversion from 'double' to 'FLOAT', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\mydirectx.cpp(265): warning C4244: 'argument' : conversion from 'double' to 'FLOAT', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\mydirectx.cpp(276): warning C4244: 'argument' : conversion from 'double' to 'FLOAT', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\mydirectx.cpp(276): warning C4244: 'argument' : conversion from 'double' to 'FLOAT', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\mydirectx.cpp(363): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\mydirectx.cpp(364): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\mydirectx.cpp(390): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\mydirectx.cpp(446): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : see declaration of 'strcpy'
+         ModelBiped.cpp
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\modelbiped.cpp(14): warning C4244: 'initializing' : conversion from 'const double' to 'int', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\modelbiped.cpp(100): warning C4244: '+=' : conversion from 'const double' to 'float', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\modelbiped.cpp(101): warning C4244: '-=' : conversion from 'const double' to 'float', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\modelbiped.cpp(102): warning C4244: '+=' : conversion from 'const double' to 'float', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\modelbiped.cpp(103): warning C4244: '-=' : conversion from 'const double' to 'float', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\modelbiped.cpp(111): warning C4244: '-=' : conversion from 'const double' to 'float', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\modelbiped.cpp(112): warning C4244: '+=' : conversion from 'const double' to 'float', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\modelbiped.cpp(113): warning C4244: '-=' : conversion from 'const double' to 'float', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\modelbiped.cpp(114): warning C4244: '+=' : conversion from 'const double' to 'float', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\modelbiped.cpp(153): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\modelbiped.cpp(154): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\modelbiped.cpp(155): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\modelbiped.cpp(156): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\modelbiped.cpp(157): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\modelbiped.cpp(158): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\modelbiped.cpp(159): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+         main.cpp
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\main.cpp(66): warning C4018: '>' : signed/unsigned mismatch
+         Level.cpp
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\level.cpp(12): warning C4244: 'argument' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\level.cpp(60): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\level.cpp(61): warning C4244: 'initializing' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\level.cpp(95): warning C4244: '*=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\level.cpp(98): warning C4244: '*=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\level.cpp(200): warning C4244: 'initializing' : conversion from 'double' to 'LONG', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\level.cpp(200): warning C4244: 'initializing' : conversion from 'double' to 'LONG', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\level.cpp(240): warning C4244: 'initializing' : conversion from 'double' to 'LONG', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\level.cpp(240): warning C4244: 'initializing' : conversion from 'double' to 'LONG', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\level.cpp(243): warning C4244: 'initializing' : conversion from 'double' to 'LONG', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\level.cpp(243): warning C4244: 'initializing' : conversion from 'double' to 'LONG', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\level.cpp(323): warning C4244: 'return' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\level.cpp(328): warning C4244: 'return' : conversion from 'double' to 'int', possible loss of data
+         Inventory.cpp
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\inventory.cpp(53): warning C4305: 'argument' : truncation from 'double' to 'float'
+         InputHandler.cpp
+         Game.cpp
+         EntityPlayer.cpp
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\entityplayer.cpp(40): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\entityplayer.cpp(42): warning C4244: '*=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\entityplayer.cpp(44): warning C4244: '*=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\entityplayer.cpp(74): warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\entityplayer.cpp(75): warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\entityplayer.cpp(118): warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\entityplayer.cpp(119): warning C4244: '+=' : conversion from 'double' to 'int', possible loss of data
+         Entity.cpp
+         BlockStone.cpp
+         BlockHelper.cpp
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\blockhelper.cpp(18): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+         BlockGlowStone.cpp
+         BlockAir.cpp
+         Block.cpp
+         Animation.cpp
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\animation.cpp(41): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\animation.cpp(41): warning C4244: 'argument' : conversion from 'int' to 'FLOAT', possible loss of data
+         Generating Code...
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2d_minecraft_clone\2dminecraft\mymousecursor.cpp(61): warning C4715: 'MyMouseCursor::createTexture' : not all control paths return a value
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\2DMinecraft.exe.embed.manifest.res" Debug\2DMinecraft_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Sam\Documents\Visual Studio 2010\Projects\2DMinecraft\2D_Minecraft_Clone\Debug\2DMinecraft.exe" /INCREMENTAL /NOLOGO d3d9.lib d3dx9.lib xinput.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\2DMinecraft.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Sam\Documents\Visual Studio 2010\Projects\2DMinecraft\2D_Minecraft_Clone\Debug\2DMinecraft.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Sam\Documents\Visual Studio 2010\Projects\2DMinecraft\2D_Minecraft_Clone\Debug\2DMinecraft.lib" /MACHINE:X86 Debug\2DMinecraft.exe.embed.manifest.res
+         Debug\Animation.obj
+         Debug\Block.obj
+         Debug\BlockAir.obj
+         Debug\BlockGlowStone.obj
+         Debug\BlockHelper.obj
+         Debug\BlockStone.obj
+         Debug\Entity.obj
+         Debug\EntityPlayer.obj
+         Debug\Game.obj
+         Debug\InputHandler.obj
+         Debug\Inventory.obj
+         Debug\Level.obj
+         Debug\main.obj
+         Debug\ModelBiped.obj
+         Debug\MyDirectX.obj
+         Debug\MyMouseCursor.obj
+       Manifest:
+         Deleting file "Debug\2DMinecraft.exe.embed.manifest".
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\2DMinecraft.exe.embed.manifest" /manifest Debug\2DMinecraft.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\2DMinecraft.exe.embed.manifest.res" Debug\2DMinecraft_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Sam\Documents\Visual Studio 2010\Projects\2DMinecraft\2D_Minecraft_Clone\Debug\2DMinecraft.exe" /INCREMENTAL /NOLOGO d3d9.lib d3dx9.lib xinput.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\2DMinecraft.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Sam\Documents\Visual Studio 2010\Projects\2DMinecraft\2D_Minecraft_Clone\Debug\2DMinecraft.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Sam\Documents\Visual Studio 2010\Projects\2DMinecraft\2D_Minecraft_Clone\Debug\2DMinecraft.lib" /MACHINE:X86 Debug\2DMinecraft.exe.embed.manifest.res
+         Debug\Animation.obj
+         Debug\Block.obj
+         Debug\BlockAir.obj
+         Debug\BlockGlowStone.obj
+         Debug\BlockHelper.obj
+         Debug\BlockStone.obj
+         Debug\Entity.obj
+         Debug\EntityPlayer.obj
+         Debug\Game.obj
+         Debug\InputHandler.obj
+         Debug\Inventory.obj
+         Debug\Level.obj
+         Debug\main.obj
+         Debug\ModelBiped.obj
+         Debug\MyDirectX.obj
+         Debug\MyMouseCursor.obj
+         2DMinecraft.vcxproj -> C:\Users\Sam\Documents\Visual Studio 2010\Projects\2DMinecraft\2D_Minecraft_Clone\Debug\2DMinecraft.exe
+       FinalizeBuildStatus:
+         Deleting file "Debug\2DMinecraft.unsuccessfulbuild".
+         Touching "Debug\2DMinecraft.lastbuildstate".
+     1>Done Building Project "C:\Users\Sam\Documents\Visual Studio 2010\Projects\2DMinecraft\2D_Minecraft_Clone\2DMinecraft\2DMinecraft.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:15.52

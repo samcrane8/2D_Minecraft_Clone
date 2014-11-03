@@ -1,0 +1,43 @@
+﻿Build started 8/6/2012 10:58:08 AM.
+     1>Project "C:\Users\Sam\documents\visual studio 2010\Projects\2DMinecraft\2DMinecraft\2DMinecraft.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\2DMinecraft.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include" /Zi /nologo- /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ModelBiped.cpp
+         Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.30319.01 for 80x86
+         Copyright (C) Microsoft Corporation.  All rights reserved.
+         
+         cl /c /I"C:\Program Files (x86)\Microsoft DirectX SDK (June 2010)\Include" /Zi /nologo- /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ModelBiped.cpp
+     1>cl : Command line warning D9035: option 'nologo-' has been deprecated and will be removed in a future release
+         
+         ModelBiped.cpp
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Sam\documents\visual studio 2010\Projects\2DMinecraft\Release\2DMinecraft.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\2DMinecraft.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Sam\documents\visual studio 2010\Projects\2DMinecraft\Release\2DMinecraft.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Sam\documents\visual studio 2010\Projects\2DMinecraft\Release\2DMinecraft.lib" /MACHINE:X86 Release\Animation.obj
+         Release\Block.obj
+         Release\BlockAir.obj
+         Release\BlockGlowStone.obj
+         Release\BlockHelper.obj
+         Release\BlockStone.obj
+         Release\Entity.obj
+         Release\EntityPlayer.obj
+         Release\Game.obj
+         Release\InputHandler.obj
+         Release\Level.obj
+         Release\main.obj
+         Release\ModelBiped.obj
+         Release\MyDirectX.obj
+         Release\MyMouseCursor.obj
+         Generating code
+     1>c:\users\sam\documents\visual studio 2010\projects\2dminecraft\2dminecraft\mymousecursor.cpp(61): warning C4715: 'MyMouseCursor::createTexture' : not all control paths return a value
+         Finished generating code
+         2DMinecraft.vcxproj -> C:\Users\Sam\documents\visual studio 2010\Projects\2DMinecraft\Release\2DMinecraft.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Sam\documents\visual studio 2010\Projects\2DMinecraft\Release\2DMinecraft.exe;#1" /manifest Release\2DMinecraft.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\2DMinecraft.unsuccessfulbuild".
+         Touching "Release\2DMinecraft.lastbuildstate".
+     1>Done Building Project "C:\Users\Sam\documents\visual studio 2010\Projects\2DMinecraft\2DMinecraft\2DMinecraft.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.04
