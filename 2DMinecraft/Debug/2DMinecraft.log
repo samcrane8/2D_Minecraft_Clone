@@ -1,4 +1,4 @@
-﻿Build started 11/3/2014 9:43:16 AM.
+﻿Build started 11/3/2014 10:02:10 AM.
      1>Project "C:\Users\Sam\Documents\Visual Studio 2010\Projects\2DMinecraft\2D_Minecraft_Clone\2DMinecraft\2DMinecraft.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\2DMinecraft.unsuccessfulbuild" because "AlwaysCreate" was specified.
@@ -17,4 +17,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:00.12
+Time Elapsed 00:00:00.66
